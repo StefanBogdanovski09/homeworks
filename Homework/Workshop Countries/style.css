@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+#countryList {
+    margin-top: 20px;
+}
+
+.country-card {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+}
+
+.country-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.country-card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.country-card p {
+    font-size: 14px;
+    margin: 5px 0;
+}
