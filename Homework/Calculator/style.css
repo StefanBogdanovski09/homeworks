@@ -1,0 +1,96 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    font-family: Arial, sans-serif;
+}
+
+.phone {
+    background: #1e1e1e;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.4);
+    max-width: 400px;
+    transform: scale(1.2);
+}
+
+.whole {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Display Screen */
+.display {
+    width: 100%;
+    background: #000;
+    color: #0f0;
+    text-align: right;
+    padding: 20px;
+    font-size: 2.5rem;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    min-height: 60px;
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.buttonRow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+button {
+    flex: 1;
+    padding: 20px;
+    font-size: 2rem;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.2s;
+    margin: 5px;
+}
+
+.calcButton {
+    background: #444;
+    color: white;
+}
+
+.calcButton:hover {
+    background: #666;
+}
+
+.topButtons {
+    background: #ff4136;
+    color: white;
+}
+
+.topButtons:hover {
+    background: #e62e26;
+}
+
+.lowButtons {
+    background: #ffdc00;
+    color: #000;
+}
+
+.lowButtons:hover {
+    background: #e6c800;
+}
+
+.calcButton:last-child {
+    background: #0074d9;
+    color: white;
+}
+
+.calcButton:last-child:hover {
+    background: #005bb5;
+}
